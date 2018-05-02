@@ -9,6 +9,8 @@ Main changes :
 
 - Introducing ɛ Ɛ γ Γ alphabetic letters and commonly used Unicode symbols
 - Getting rid off extra characters such as egrave, apostrophe, agrave, ccedilla and so on : éèùàç'
+- Reorganising the dz syntax with tabs
+- Better ASCII keyboard layouts view in terminal mode
 
 ## Related links
 - https://github.com/BoFFire/Kabyle-latin-script
