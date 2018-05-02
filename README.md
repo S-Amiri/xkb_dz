@@ -18,3 +18,4 @@ The idea is to add a Dvorak, Bépo, Colemak like layouts for Kabyle and take int
 
 ## Related links
 - https://github.com/BoFFire/Kabyle-latin-script
+- https://github.com/nlouahedj/tamazight-layout
