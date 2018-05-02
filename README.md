@@ -11,6 +11,7 @@ Main changes :
 - Getting rid off extra characters such as egrave, apostrophe, agrave, ccedilla and so on : éèùàç'
 - Reorganising the dz syntax with tabs
 - Better ASCII keyboard layouts view in terminal mode
+- Using kab or regional kab_dz as ISO since Tamazight is not defined.
 
 ## Work in progress (future)
 
