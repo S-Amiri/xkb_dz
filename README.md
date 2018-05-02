@@ -12,5 +12,9 @@ Main changes :
 - Reorganising the dz syntax with tabs
 - Better ASCII keyboard layouts view in terminal mode
 
+## Work in progress (future)
+
+The idea is to add a Dvorak, Bépo, Colemak like layouts for Kabyle and take into consideration Mac layout and other OS.
+
 ## Related links
 - https://github.com/BoFFire/Kabyle-latin-script
