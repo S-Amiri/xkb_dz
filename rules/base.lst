@@ -203,7 +203,7 @@
   ba              Bosnian
   br              Portuguese (Brazil)
   bg              Bulgarian
-  dz              Berber (Algeria, Latin characters)
+  dz              Algerian
   ma              Arabic (Morocco)
   cm              English (Cameroon)
   mm              Burmese
@@ -386,9 +386,10 @@
   thinkpad        br: Portuguese (Brazil, IBM/Lenovo ThinkPad)
   phonetic        bg: Bulgarian (traditional phonetic)
   bas_phonetic    bg: Bulgarian (new phonetic)
-  kab             dz: Kabyle (Algeria)
-  ber             dz: Berber (Algeria, Tifinagh)
+  kab             dz: Tamazight (with Unicode ɛƐγΓ)
+  ber             dz: Berber (with Tifinagh Unicode)
   ar              dz: Arabic (Algeria)
+  azerty          dz: Azerty (Algeria)
   french          ma: French (Morocco)
   tifinagh        ma: Berber (Morocco, Tifinagh)
   tifinagh-alt    ma: Berber (Morocco, Tifinagh alternative)

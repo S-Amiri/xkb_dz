@@ -2330,8 +2330,12 @@
     <layout>
       <configItem>
         <name>dz</name>
+
         <shortDescription>kab</shortDescription>
-        <description>Kabyle (Algeria)</description>
+        <description>Tamazight (Algeria)</description>
+        <countryList>
+          <iso3166Id>DZ</iso3166Id>
+        </countryList>
             <languageList>
               <iso639Id>kab</iso639Id>
             </languageList>
@@ -2340,6 +2344,7 @@
         <variant>
           <configItem>
             <name>ber</name>
+
             <shortDescription>ber</shortDescription>
             <description>Berber (Algeria, Tifinagh)</description>
             <languageList>
@@ -2349,11 +2354,23 @@
         </variant>
         <variant>
           <configItem>
-            <name>ar</name>
+            <name>ara</name>
+
             <shortDescription>ar</shortDescription>
             <description>Arabic (Algeria)</description>
             <languageList>
               <iso639Id>ara</iso639Id>
+            </languageList>
+          </configItem>
+        </variant>
+	<variant>
+          <configItem>
+            <name>azerty</name>
+
+            <shortDescription>fr</shortDescription>
+            <description>Azerty (Algeria)</description>
+            <languageList>
+              <iso639Id>fra</iso639Id>
             </languageList>
           </configItem>
         </variant>
