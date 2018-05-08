@@ -4,7 +4,7 @@
 // For a description see https://github.com/BoFFire/Kabyle-latin-script
 // Author : Association Idles n Izarrouken
 // By : Athmane MOKRAOUI <butterflyoffire@protonmail.com>
-// Last changes 2018/05/02
+// Last changes 2018/05/08
 //
 // ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━━━┓
 // │ ³ ¸ │ 1 ̨  │ 2   │ 3 ˘ │ 4 — │ 5 – │ 6 ‑ │ 7   │ 8 ™ │ 9   │ 0   │ ° ≠ │ + ± ┃ ⌫         ┃
@@ -26,7 +26,8 @@
 default partial alphanumeric_keys
 xkb_symbols "kab" {
     include "level3(ralt_switch)"
-    name[Group1]="Berber (Algeria, Latin characters)";
+    name[Group1]="Tamazight (Algeria)";
+    include "eurosign(e)"
 
     // First row
     key <TLDE>  { [ twosuperior,threesuperior,		onesuperior,	dead_cedilla	] }; // ² ³ ¹ ¸
@@ -75,7 +76,7 @@ xkb_symbols "kab" {
     key <AB01>  { [ w,                  W						] }; // w W
     key <AB02>  { [ x,                  X						] }; // x X
     key <AB03>  { [ c,			C,		0x100010D,	0x100010C	] }; // c C č Č
-    key <AB04>  { [ v,                  V						] }; // 
+    key <AB04>  { [ v,                  V						] }; // To be deleted and replaced
     key <AB05>  { [ b,                  B						] }; // b B
     key <AB06>  { [ n,                  N						] }; // n N
     key <AB07>  { [ comma,		question,	questiondown,	0x1002026	] }; // , ? ¿ …
@@ -93,10 +94,10 @@ xkb_symbols "kab" {
 // │ ²   │ &   │   ~ │ " # │ ' { │ ( [ │ - | │     │ _ \ │   ^ │   @ │ ) ] │ = } ┃ Backspace┃
 // ┢━━━━━┷━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┺━┳━━━━━━━━┫
 // ┃       ┃     │ ⵥ   │ ⵦ   │ ⵕ   │ ⵟ   │     │     │     │ ⵧ   │     │     │ £ Ø ┃ Enter  ┃
-// ┃ Tab ↹ ┃ ⴰ   │ ⵣ  ⵤ│ ⴻ   │ ⵔ   │ ⵜ ⵝ │ ⵢ   │ ⵓ   │ ⵉ   │ ⵄ   │ ⵃ   │ ⵯ   │ $ ø ┃   ⏎    ┃
+// ┃ Tab ↹ ┃ ⴰ   │ ⵣ  ⵤ│ ⴻ   │ ⵔ   │ ⵜ ⵝ │ ⵢ   │ ⵓ   │ ⵉ   │ ⵄ   │ ⵖ   │ ⵯ   │ $ ø ┃   ⏎    ┃
 // ┣━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┓       ┃
-// ┃ Caps   ┃ ⵈ   │ ⵚ   │ ⴹ ⴺ │     │ ⴵ ⴶ │ ⵁ   │ ⵋ   │ ⴿ   │     │     │ % Ù │ µ ̄¯ ┃       ┃
-// ┃ Lock ⇬ ┃ ⵇ   │ ⵙ   │ ⴷ ⴸ │ ⴼ   │ ⴳ ⴴ │ ⵀ  ⵂ│ ⵊ ⵌ │ ⴽ ⴾ │ ⵍ   │ ⵎ   │ ù ´ │ * ` ┃       ┃
+// ┃ Caps   ┃ ⵈ   │ ⵚ   │ ⴹ ⴺ │     │ ⴵ ⴶ │ ⵁ ⵂ │ ⵋ   │ ⴿ   │     │     │ % Ù │ µ ̄¯ ┃       ┃
+// ┃ Lock ⇬ ┃ ⵇ   │ ⵙ   │ ⴷ ⴸ │ ⴼ   │ ⴳ ⴴ │ ⵃ ⵀ │ ⵊ ⵌ │ ⴽ ⴾ │ ⵍ   │ ⵎ   │ ù ´ │ * ` ┃       ┃
 // ┣━━━━━━━┳┹────┬┴────┬┴────┬┴────┬┴────┬┴────┬┴────┬┴────┬┴────┬┴────┬┴────┲┷━━━━━┻━━━━━━━┫
 // ┃       ┃ > ¦ │     │ ⵆ   │ ⵞ   │ ⵗ ⵠ │ ⴲ   │ ⵐ   │ ? … │ . ⋅ │ / ∕ │ § − ┃              ┃
 // ┃Shift ⇧┃ < | │ ⵡ   │ ⵅ   │ ⵛ   │ ⵖ ⵘ │ ⴱ ⵒ │ ⵏ ⵑ │ , ¿ │ ; × │ : ÷ │ ! ¡ ┃ Shift ⇧      ┃
@@ -107,8 +108,9 @@ xkb_symbols "kab" {
 
 partial alphanumeric_keys
 xkb_symbols "ber" {
-    name[Group1]="Berber (Algeria, Tifinagh characters)";
-
+    name[Group1]="Berber (Algeria, Tifinagh)";
+    include "eurosign(e)"
+    
     // First row
     key <TLDE>  { [ twosuperior,	threesuperior,  onesuperior,	dead_cedilla	] }; // ² ³ ¹ ¸
     key <AE01>  { [ ampersand,		1,		dead_caron,	dead_ogonek	] }; // & 1 ˇ ̨
@@ -129,23 +131,23 @@ xkb_symbols "ber" {
     key <AD02>  { [ 0x1002D63,	0x1002D65,	0x1002D64				] }; // ⵣ ⵥ ⵤ 
     key <AD03>  { [ 0x1002D3B,	0x1002D66						] }; // ⴻ ⵦ
     key <AD04>  { [ 0x1002D54,	0x1002D55						] }; // ⵔ ⵕ
-    key <AD05>  { [ 0x1002D5C,	0x1002D5F,	0x1002D5D				] }; // ⵜ ⵟ ⵝ
+    key <AD05>  { [ 0x1002D5C,	0x1002D5D,	0x1002D5F				] }; // ⵜ ⵝ ⵟ
     key <AD06>  { [ 0x1002D62								] }; // ⵢ
     key <AD07>  { [ 0x1002D53								] }; // ⵓ
     key <AD08>  { [ 0x1002D49								] }; // ⵉ
     key <AD09>  { [ 0x1002D44,	0x1002D67						] }; // ⵄ ⵧ
-    key <AD10>  { [ 0x1002D43								] }; // ⵃ
+    key <AD10>  { [ 0x1002D56								] }; // ⵖ
     key <AD11>  { [ 0x1002D6F								] }; // ⵯ
     key <AD12>  { [ dollar,	sterling,	oslash,		Ooblique		] }; // $ £ ø Ø
 
     // Third row
     key <AC01>  { [ 0x1002D47,	0x1002D48						] }; // ⵇ ⵈ 
     key <AC02>  { [ 0x1002D59,	0x1002D5A						] }; // ⵙ ⵚ
-    key <AC03>  { [ 0x1002D37,	0x1002D39,	0x1002D38,	0x1002D3A		] }; // ⴷ ⴹ ⴸ ⴺ
+    key <AC03>  { [ 0x1002D37,	0x1002D38,	0x1002D39,	0x1002D3A		] }; // ⴷ ⴸ ⴹ ⴺ
     key <AC04>  { [ 0x1002D3C								] }; // ⴼ
     key <AC05>  { [ 0x1002D33,	0x1002D35,	0x1002D34,	0x1002D36		] }; // ⴳ ⴵ ⴴ ⴶ
-    key <AC06>  { [ 0x1002D40,	0x1002D41,	0x1002D42				] }; // ⵀ ⵁ ⵂ 
-    key <AC07>  { [ 0x1002D4A,	0x1002D4B,	0x1002D4C				] }; // ⵊ ⵋ ⵌ Ü
+    key <AC06>  { [ 0x1002D41,	0x1002D43,	0x1002D40,	0x1002D42		] }; // ⵁ ⵃ ⵀ ⵂ 
+    key <AC07>  { [ 0x1002D4A,	0x1002D4B,	0x1002D4C				] }; // ⵊ ⵋ ⵌ
     key <AC08>  { [ 0x1002D3D,	0x1002D3F,	0x1002D3E				] }; // ⴽ ⴿ ⴾ 
     key <AC09>  { [ 0x1002D4D								] }; // ⵍ 
     key <AC10>  { [ 0x1002D4E								] }; // ⵎ
@@ -165,12 +167,12 @@ xkb_symbols "ber" {
     key <AB09>  { [ colon,	slash,		division,	0x1002215		] }; // : / ÷ ∕
     key <AB10>  { [ exclam,	section,	exclamdown,	0x1002212		] }; // ! § ¡ −
 
-    include "level3(ralt_switch)"
+    //include "level3(ralt_switch)"
 };
 
 // Arabic AZERTY with modern Latin digits
 partial alphanumeric_keys
-xkb_symbols "ar" {
+xkb_symbols "ara" {
     include "ara(basic)"
     name[Group1]="Arabic (Algeria)";
 
@@ -189,3 +191,11 @@ xkb_symbols "ar" {
     key <AE12>  { [ equal,      plus,                   braceright,     plusminus       ] }; // = + } ±
 
 };
+
+// AZERTY keyboard when typing French
+// partial alphanumeric_keys
+// xkb_symbols "french" {
+//    include "fr(basic)"
+
+//    name[Group1]="French (Algeria)";
+//};
