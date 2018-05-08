@@ -17,6 +17,10 @@ Main changes :
 
 The idea is to add a Dvorak, Bépo, Colemak like layouts for Kabyle and take into consideration Mac layout and other OS.
 
+## Last update
+
+May 8th, 2018
+
 ## Related links
 - https://github.com/BoFFire/Kabyle-latin-script
 - https://github.com/nlouahedj/tamazight-layout by @nlouahedj
