@@ -35,4 +35,5 @@ May 8th, 2018
 ## Related links
 - Kabyle (Tamazight, Tamɛmrit) Unicode : https://github.com/BoFFire/Kabyle-latin-script
 - Tamaziγt layout by @nlouahedj : https://github.com/nlouahedj/tamazight-layout
+- Kabyle keyboard : https://boffire.github.io/taqbaylit
 - AnySoftKeyboard Tamazight layout WIP : https://github.com/BoFFire/LanguagePack
