@@ -15,11 +15,19 @@ Main changes :
 
 ## Work in progress (future)
 
-The idea is to add a Dvorak, Bépo, Colemak like layouts for Kabyle and take into consideration Mac layout and other OS.
+The idea is to add a Qwerty(z), Dvorak, Bépo, Colemak like layouts for Kabyle and take into consideration Mac layout, OLPC and other OS.
 
 ## Last update
 
 May 8th, 2018
+
+## Viz
+### Azerty Tamazight Unicode layout
+
+![Azerty Tamazight Layout](/img/kab_layout.png)
+
+### Azerty Tifinagh layout
+![Azerty Tifinagh Layout](/img/ber_layout.png)
 
 ## Related links
 - Kabyle (Tamazight, Tamɛmrit) Unicode : https://github.com/BoFFire/Kabyle-latin-script
