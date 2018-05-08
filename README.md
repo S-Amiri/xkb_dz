@@ -22,6 +22,6 @@ The idea is to add a Dvorak, Bépo, Colemak like layouts for Kabyle and take int
 May 8th, 2018
 
 ## Related links
-- https://github.com/BoFFire/Kabyle-latin-script
-- https://github.com/nlouahedj/tamazight-layout by @nlouahedj
-- AnySoftKeyboard Tamazight layout WIP :https://github.com/BoFFire/LanguagePack
+- Kabyle (Tamazight, Tamɛmrit) Unicode : https://github.com/BoFFire/Kabyle-latin-script
+- Tamaziγt layout by @nlouahedj : https://github.com/nlouahedj/tamazight-layout
+- AnySoftKeyboard Tamazight layout WIP : https://github.com/BoFFire/LanguagePack
