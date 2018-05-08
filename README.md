@@ -29,6 +29,9 @@ May 8th, 2018
 ### Azerty Tifinagh layout
 ![Azerty Tifinagh Layout](/img/ber_layout.png)
 
+### Fixing dz flag on Lubuntu
+![Lubuntu dz flag](/img/lubuntu_flag.png)
+
 ## Related links
 - Kabyle (Tamazight, Tamɛmrit) Unicode : https://github.com/BoFFire/Kabyle-latin-script
 - Tamaziγt layout by @nlouahedj : https://github.com/nlouahedj/tamazight-layout
