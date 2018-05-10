@@ -37,3 +37,4 @@ May 8th, 2018
 - Tamaziγt layout by @nlouahedj : https://github.com/nlouahedj/tamazight-layout
 - Kabyle keyboard : https://boffire.github.io/taqbaylit
 - AnySoftKeyboard Tamazight layout WIP : https://github.com/BoFFire/LanguagePack
+- Akufi by Paul Anderson : http://www.akufi.org/fr/tools/downloads.html
